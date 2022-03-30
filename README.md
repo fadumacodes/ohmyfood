@@ -14,6 +14,7 @@ Buttons
 
 ● When hovering, the background color of the main buttons should lighten slightly. The
 drop shadow should also be more visible.
+
 ● Eventually, visitors will be able to save their favorite menus. For that, a heart-shaped
 Like button is present on the model. When you click on it, it should fill up gradually.
 For this first version, the effect can appear on hovering instead of clicking.
@@ -30,6 +31,7 @@ Menu Pages
 
 ● When arriving on the page, the dishes should appear gradually with a slight time lag.
 They may appear either one by one or by group Starter, Main course, and Dessert.
+
 ● The visitor can add the dishes he wishes to his order by clicking on them. A small
 checkmark will appear to the right of the dish. This tick should slide from right to left.
 For this first version, the effect can be displayed on hovering instead of clicking. If the

@@ -7,7 +7,7 @@ https://fadumacodes.github.io/ohmyfood/index.html
 # Page Content
 
 
-Homepage (x1)
+## Homepage (x1)
 
 
 ● Display the location of restaurants. Eventually, it will be possible to choose restaurants close to a certain place.
@@ -24,7 +24,7 @@ Menu Pages (x4)
 
 ● When you click on Contact, a link to an email address is made.
 
-Header
+## Header
 
 
 ● The header is present on all pages.
@@ -35,13 +35,13 @@ Header
 Graphic Effects and Animations
 The effects accessible by clicking or hovering are visible on the model. They must use CSS animations or transitions, no JavaScript, or library.
 
-Buttons
+## Buttons
 
 ● When hovering, the background color of the main buttons should lighten slightly. The drop shadow should also be more visible.
 
 ● Eventually, visitors will be able to save their favorite menus. For that, a heart-shaped Like button is present on the model. When you click on it, it should fill up gradually. For this first version, the effect can appear on hovering on desktop instead of clicking.
 
-Home Page
+## Home Page
 
 ● When the application has more menus, a loading spinner will be necessary. On this mock-up, we would like to have a preview of it. It will have to appear for 1 to 3 seconds when you arrive on the home page, cover the whole screen, and use CSS animations (no library). The design of this loader is not defined, so any proposal is welcome as long as it is consistent with the graphic charter.
 Menu Pages

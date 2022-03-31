@@ -1,3 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
+@keyframes loader {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes defilement-rtl {
+  0% {
+    transform: translate3d(0, 0, 0);
+    /* position initiale à droite */
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+    /* position finale à gauche */
+  }
+}
+@keyframes clignote {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* la rotation de mon img loader*/
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+/* Coloration coeur */
+@keyframes heart {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 *,
 *::after,
 *::before {
@@ -192,10 +265,7 @@ body {
   padding: 20px;
   border-radius: 0.75rem;
   box-shadow: 0.25rem 0.25rem 1rem rgb(0 0 0 / 10%);
-  animation-name: fade-in;
-  animation-duration: 750ms;
-  animation-fill-mode: both;
-  animation-delay: 500ms;
+  animation: fadeInUp 2s ease-in-out;
 }
 .middle-section-bottom-menucard-submenu-card-pricing {
   display: flex;

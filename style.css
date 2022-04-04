@@ -56,7 +56,7 @@ h2 {
 }
 .loader {
   position: absolute;
-  z-index: 1001;
+  z-index: 100;
   left: 50%;
   border: 16px solid #ff79da;
   border-top: 16px solid #9356dc;
@@ -91,7 +91,7 @@ h2 {
       opacity: 1;
   }
 
-  45% {
+  25% {
       transform: translateX(-50%) rotate(180deg);
       opacity: 1;
   }

@@ -160,14 +160,22 @@ h2 {
 /* Lowering the shadow */
 
 .btn:hover {
-  background: rgb(238, 230, 238);
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
+  background: rgb(223, 111, 224);
+  background: linear-gradient(
+    313deg,
+    rgb(233, 167, 234) 0%,
+    rgba(242, 136, 255, 1) 100%
+  );
   cursor: pointer;
 }
 .container {
   padding-left: 25px;
   padding-right: 25px;
 }
-
+.btn .pressed {
+  background-color: rgb(250, 239, 253);
+}
 .cardlink {
   text-decoration: none;
   color: black;
